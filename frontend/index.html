@@ -1,17 +1,767 @@
-<!doctype html>
-<html lang="id">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NovaVision Lab</title>
-  <style>body{font-family:system-ui;margin:0;background:#eef6ff;color:#153c5d}main{max-width:720px;margin:72px auto;padding:32px;background:white;border-radius:18px}.tag{color:#1478b8;font-weight:700}</style>
-</head>
-<body>
-  <main>
-    <p class="tag">MLOps Lab · Frontend</p>
-    <h1>Halo dari GitHub Pages!</h1>
-    <p>Halaman ini dikirim otomatis oleh GitHub Actions.</p>
-    <p>Perubahan kode → commit → push → deploy.</p>
-  </main>
-</body>
-</html>
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"surface":"#f9f9ff","on-primary-fixed":"#370e00","on-secondary-container":"#00476e","on-tertiary-fixed-variant":"#653e00","surface-cream-muted":"#F4EFE6","primary-fixed-dim":"#ffb599","on-secondary-fixed-variant":"#004b73","surface-container-lowest":"#ffffff","on-background":"#111c2d","secondary-fixed-dim":"#93ccff","surface-variant":"#d8e3fb","on-error":"#ffffff","primary":"#a33900","inverse-surface":"#263143","secondary-container":"#5bb8fe","primary-fixed":"#ffdbce","text-secondary":"#475569","inverse-on-surface":"#ecf1ff","surface-bright":"#f9f9ff","on-tertiary":"#ffffff","outline":"#8e7166","on-error-container":"#93000a","border-strong":"#D5C9BC","text-muted":"#94A3B8","tertiary-container":"#a36700","inverse-primary":"#ffb599","on-secondary":"#ffffff","surface-container":"#e7eeff","on-tertiary-fixed":"#2a1700","surface-cream-base":"#FDFBF7","on-surface":"#111c2d","tertiary-fixed-dim":"#ffb95f","primary-container":"#cc4900","background":"#f9f9ff","surface-container-high":"#dee8ff","surface-cream-alt":"#F8F3EB","secondary-fixed":"#cce5ff","tertiary":"#825100","secondary":"#006398","error":"#ba1a1a","surface-container-low":"#f0f3ff","on-secondary-fixed":"#001d31","on-primary-fixed-variant":"#7f2b00","text-primary":"#0F172A","surface-dim":"#cfdaf2","brand-coral-hover":"#F97316","surface-container-highest":"#d8e3fb","on-surface-variant":"#5a4138","on-primary-container":"#fffbff","surface-card":"#FFFFFF","on-tertiary-container":"#fffbff","brand-amber-light":"#FEF3C7","brand-sky-light":"#E0F2FE","surface-tint":"#a73a00","on-primary":"#ffffff","tertiary-fixed":"#ffddb8","outline-variant":"#e2bfb2","border-subtle":"#E7DFD5","error-container":"#ffdad6"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"gutter":"1.5rem","margin-tablet":"2rem","space-md":"1rem","space-sm":"0.5rem","space-xs":"0.25rem","margin-mobile":"1.25rem","space-2xl":"4rem","margin":"3rem","space-lg":"1.5rem","space-xl":"2.5rem","gutter-mobile":"1rem"},"fontFamily":{"body-sm":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"label-lg":["Inter"],"label-md":["Inter"],"body-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Inter"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},"fontSize":{"body-sm":["0.875rem",{"lineHeight":"1.5","fontWeight":"400"}],"display-hero":["3.5rem",{"lineHeight":"1.15","letterSpacing":"-0.03em","fontWeight":"700"}],"label-lg":["0.875rem",{"lineHeight":"1.2","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["0.75rem",{"lineHeight":"1.2","letterSpacing":"0.04em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.55","fontWeight":"400"}],"headline-md":["1.75rem",{"lineHeight":"1.3","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["1.25rem",{"lineHeight":"1.4","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.6","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"1.2","letterSpacing":"0.05em","fontWeight":"500"}],"display-hero-mobile":["2.25rem",{"lineHeight":"1.2","letterSpacing":"-0.025em","fontWeight":"700"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"1.25","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["2.5rem",{"lineHeight":"1.2","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-surface-cream-base text-on-surface font-body-md text-body-md antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-cream-base/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="NeatWash Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VFWG7cLEb0txA7aFoLJTNnmmf7scJBav73M0lrA0vWXC6sCB61TK7Wz7aC9-YnqEoLcaFPQd15KQtqQcFd87MjZh4R34t2DHVavOdaTm0Mdd6RSti0RF3evA75bvFofJKGpNBbKGh-Wk_pmWobIH0qSpLYzW75SJKzcHuuF_29uH287I_l3oBUg_QSj-NxjnPx2CBaFvW0O81qaC4FJUQ4yCRDdrfiDCWiB3wmlclq9Mmt1UdlVq2q0w"/><span class="font-headline-sm text-headline-sm text-text-primary tracking-tight font-bold">NeatWash</span></div><nav class="hidden xl:flex items-center gap-1 bg-surface-cream-muted px-3 py-1.5 rounded-full" data-active-classes="bg-primary text-on-primary font-label-lg text-label-lg rounded-full px-4 py-2"><a aria-current="page" class="transition-colors bg-primary text-on-primary font-label-lg text-label-lg rounded-full px-4 py-2" data-path="home" href="#">Home</a><a class="px-3.5 py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="layanan-dan-paket" href="#">Layanan & Paket</a><a class="px-3.5 py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="lacak-pesanan" href="#">Lacak Pesanan</a><a class="px-3.5 py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="order-online" href="#">Order Online</a><a class="px-3.5 py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="tentang-kami" href="#">Tentang Kami</a><a class="px-3.5 py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="testimoni" href="#">Testimoni</a><a class="px-3.5 py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="kontak" href="#">Kontak</a></nav><div class="flex items-center gap-3 shrink-0"><div class="hidden md:flex items-center gap-2 bg-surface-card px-3.5 py-1.5 rounded-full shadow-[0_2px_6px_rgba(30,41,59,0.04)]"><span class="material-symbols-outlined text-primary text-base">support_agent</span><div class="flex flex-col text-left"><span class="font-label-sm text-label-sm text-text-muted">Hotline 24/7</span><span class="font-label-md text-label-md text-text-primary font-semibold">0800-1-NEAT</span></div></div><a class="inline-flex items-center justify-center px-5 py-2.5 bg-primary text-on-primary font-label-lg text-label-lg rounded-full shadow-[0_4px_14px_rgba(163,57,0,0.2)] hover:bg-primary-container transition-all transform hover:-translate-y-0.5" data-path="order-online" href="#">Pesan Laundry</a><div class="flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbn04Iw7a5mjPoIFGNcPYEYxWAdUsmbybHBd_SPtBlfK-gpj-oZjZ3pwSrYYM3_1RcRLMy9PL_t-UQsDOO2625J8VmGLfP8kkgTmkLOBIphZ6wNwZl_e8MuYj278ABHpoJtRO8ivL7fWj-gDq20wUZ8ScMzpiOVeIXBbwVf-1trK8Kganu-JyQkR3glLDB1tIacdOcOwe6b1pEIURrWNqsWnWsEavaaVF6pubeW--s3bqf9ZRijsc"/></div></div></div></header><main class="w-full pt-20 bg-surface-cream-base min-h-screen"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full bg-surface-cream-alt overflow-hidden pb-20 pt-8 lg:pt-14">
+<!-- Subtle ambient background decor -->
+<div class="absolute top-12 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-gradient-to-b from-primary-fixed/20 via-brand-amber-light/30 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<div class="absolute top-10 right-10 text-outline-variant/30 hidden lg:block select-none pointer-events-none">
+<svg fill="currentColor" height="120" viewbox="0 0 100 100" width="120">
+<circle cx="50" cy="50" r="16"></circle>
+<path d="M50 10 L50 24 M50 76 L50 90 M10 50 L24 50 M76 50 L90 50 M22 22 L32 32 M68 68 L78 78 M22 78 L32 68 M68 32 L78 22" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+</svg>
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col items-center text-center relative z-10">
+<!-- Eyebrow Badge -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 bg-surface-card rounded-full shadow-sm mb-6">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary font-semibold tracking-wide">✨ Layanan Laundry Premium & Higienis</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-text-primary max-w-4xl tracking-tight leading-tight mb-4">
+        Delivering excellence every step ahead
+      </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-text-secondary max-w-2xl mx-auto mb-8">
+        Solusi laundry digital terpercaya dengan sistem pelacakan pengerjaan real-time, jemput-antar terjadwal, dan jaminan pakaian higienis 100%.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center justify-center gap-4 mb-14">
+<a class="px-8 py-3.5 bg-primary text-on-primary font-label-lg text-label-lg rounded-full shadow-[0_6px_20px_rgba(163,57,0,0.28)] hover:bg-primary-container transition-all transform hover:-translate-y-0.5" href="#tracking-section">
+          Pesan Sekarang
+        </a>
+<a class="px-7 py-3.5 bg-surface-card text-text-primary font-label-lg text-label-lg rounded-full shadow-sm hover:bg-surface-cream-muted transition-all" href="#how-it-works">
+          Lihat Cara Kerja
+        </a>
+</div>
+<!-- Hero Visual Composition with Floating Badges (faithfully matching reference image) -->
+<div class="relative w-full max-w-3xl mx-auto flex items-center justify-center min-h-[380px] lg:min-h-[440px]">
+<!-- Center Folded Clothes Composition -->
+<div class="relative z-10 w-72 h-80 sm:w-80 sm:h-96 rounded-2xl overflow-hidden shadow-xl bg-surface-card flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Close-up studio shot of two hands holding up a tall neat stack of freshly washed, colorful folded towels and cotton clothes in pastel tones, soft natural studio lighting, warm beige background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXGeE4YlDazBaXLXh7Fddz2Z4OjFyBV82FH5mbbv3Bm2e8YhGx505dMqusmmg5i4iny0Sy1YCsWK5bZqvlpro58VW1TAJRU1WrA6RD1kornIN1wcvBiXfyfk1yJ_-DYL685g15nwnnv6e4_7X0fNYBlpCOkVqAjf8hJ5El_CrQweGKVsiQtE5Sm1t1Jycofm_eew9pEjjHu1DGDgVD7wB3LBzpxScsTU1bemgX0oCOlBPpKDuasMo"/>
+<div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-text-primary/70 via-text-primary/20 to-transparent p-4 text-left">
+<span class="inline-block px-2.5 py-0.5 bg-surface-card/90 backdrop-blur text-primary text-label-sm font-label-sm rounded-full mb-1">Higienis & Steril</span>
+<p class="text-on-primary text-body-sm font-semibold">Standar Cuci 60°C Anti Bakteri</p>
+</div>
+</div>
+<!-- Left Top Callout -->
+<div class="hidden sm:flex absolute left-2 lg:left-6 top-6 z-20 bg-surface-card p-4 rounded-xl shadow-lg max-w-[210px] text-left items-start gap-3 transform -rotate-1 hover:rotate-0 transition-transform">
+<div class="w-9 h-9 rounded-full bg-brand-sky-light text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">local_laundry_service</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-text-primary font-bold">Soft, fresh & revitalized</p>
+<p class="font-label-sm text-label-sm text-text-secondary mt-0.5">Serat kain tetap lembut & wangi tahan 14 hari</p>
+</div>
+</div>
+<!-- Left Bottom Callout -->
+<div class="hidden sm:flex absolute left-0 lg:left-8 bottom-10 z-20 bg-surface-card p-4 rounded-xl shadow-lg max-w-[210px] text-left items-start gap-3 transform rotate-1 hover:rotate-0 transition-transform">
+<div class="w-9 h-9 rounded-full bg-brand-amber-light text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">palette</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-text-primary font-bold">Colors Preserved</p>
+<p class="font-label-sm text-label-sm text-text-secondary mt-0.5">Perlindungan formula anti pudar khusus</p>
+</div>
+</div>
+<!-- Right Top Callout -->
+<div class="hidden sm:flex absolute right-2 lg:right-6 top-10 z-20 bg-surface-card p-4 rounded-xl shadow-lg max-w-[215px] text-left items-start gap-3 transform rotate-2 hover:rotate-0 transition-transform">
+<div class="w-9 h-9 rounded-full bg-primary-fixed text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">dry_cleaning</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-text-primary font-bold">Expert Dry-Clean</p>
+<p class="font-label-sm text-label-sm text-text-secondary mt-0.5">Hasil bersih presisi untuk jas, sutra & kebaya</p>
+</div>
+</div>
+<!-- Right Bottom Callout -->
+<div class="hidden sm:flex absolute right-0 lg:right-8 bottom-8 z-20 bg-surface-card p-4 rounded-xl shadow-lg max-w-[210px] text-left items-start gap-3 transform -rotate-2 hover:rotate-0 transition-transform">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">schedule</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-text-primary font-bold">24 Hours Reception</p>
+<p class="font-label-sm text-label-sm text-text-secondary mt-0.5">Drop box pintar & pickup malam hari</p>
+</div>
+</div>
+<!-- Customer Rating Float Pill (Center bottom overlap) -->
+<div class="absolute -bottom-5 z-30 bg-surface-card px-5 py-2.5 rounded-full shadow-xl flex items-center gap-3">
+<div class="flex text-amber-500 text-sm">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-text-primary">4.9 / 5.0</span>
+<span class="font-body-sm text-body-sm text-text-muted">| 1,200+ Ulasan Positif</span>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK TRACKING / ORDER LOOKUP BAR -->
+<section class="relative z-30 max-w-4xl mx-auto px-6 -mt-7 w-full" id="tracking-section">
+<div class="bg-surface-card rounded-2xl shadow-xl p-4 sm:p-5 flex flex-col md:flex-row items-center gap-4">
+<div class="flex items-center gap-3 w-full md:w-auto shrink-0 px-2">
+<div class="w-10 h-10 rounded-full bg-surface-cream-muted text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">qr_code_scanner</span>
+</div>
+<div class="text-left">
+<p class="font-label-md text-label-md text-text-primary font-bold">Lacak Status Laundry</p>
+<p class="font-label-sm text-label-sm text-text-muted">Cek progress 8 tahapan cuci live</p>
+</div>
+</div>
+<div class="flex-1 w-full flex items-center bg-surface-cream-base rounded-full px-4 py-2">
+<span class="material-symbols-outlined text-text-muted text-lg mr-2">search</span>
+<input class="w-full bg-transparent text-text-primary font-body-sm text-body-sm focus:outline-none placeholder:text-text-muted" id="order-input" placeholder="Masukkan ID Order (cth: NW-20260925-001)" type="text"/>
+</div>
+<button class="w-full md:w-auto px-6 py-3 bg-secondary text-on-secondary font-label-lg text-label-lg rounded-full hover:bg-on-secondary-container transition-all shrink-0 flex items-center justify-center gap-2" id="track-btn">
+<span>Lacak Sekarang</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+<!-- Live Tracking Result Drawer Simulation (Hidden until searched) -->
+<div class="hidden mt-4 bg-surface-card rounded-2xl shadow-lg p-6 transition-all" id="tracking-drawer">
+<div class="flex flex-wrap items-center justify-between gap-4 pb-4 mb-5 border-b border-border-subtle">
+<div>
+<span class="font-label-sm text-label-sm text-secondary bg-brand-sky-light px-2.5 py-1 rounded-full font-semibold">Sedang Diproses (Tahap 4 dari 8)</span>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold mt-1">Order #NW-20260925-001</h4>
+<p class="font-body-sm text-body-sm text-text-secondary">Paket: Quick Wash + Softener Blossom • Total: 4.8 Kg</p>
+</div>
+<div class="text-right">
+<p class="font-label-sm text-label-sm text-text-muted">Estimasi Selesai</p>
+<p class="font-headline-sm text-headline-sm text-primary font-bold">Hari ini, 17.30 WIB</p>
+</div>
+</div>
+<!-- 8-Stage Laundry Pipeline Ribbon -->
+<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 text-center text-label-sm font-label-sm">
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-muted text-primary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>1. Pesanan Dibuat</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-muted text-primary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>2. Pickup Sukses</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-muted text-primary">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>3. Diterima Outlet</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-secondary text-on-secondary shadow-sm scale-105">
+<span class="material-symbols-outlined text-lg animate-spin">sync</span>
+<span class="font-bold">4. Pencucian</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-base text-text-muted">
+<span class="material-symbols-outlined text-lg">dry</span>
+<span>5. Pengeringan</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-base text-text-muted">
+<span class="material-symbols-outlined text-lg">iron</span>
+<span>6. Setrika Uap</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-base text-text-muted">
+<span class="material-symbols-outlined text-lg">verified</span>
+<span>7. QC & Pack</span>
+</div>
+<div class="flex flex-col items-center gap-1.5 p-2 rounded-lg bg-surface-cream-base text-text-muted">
+<span class="material-symbols-outlined text-lg">local_shipping</span>
+<span>8. Pengantaran</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT US SECTION -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column: Copy & Social Proof -->
+<div class="lg:col-span-5 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-cream-muted rounded-full">
+<span class="material-symbols-outlined text-primary text-base">eco</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Higienis • Lembut • Ramah Lingkungan</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight leading-tight">
+          About us beyond your expectations
+        </h2>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+          NeatWash hadir mentransformasi rutinitas mencuci Anda menjadi pengalaman tanpa beban. Menggabungkan teknologi sterilisasi ozon, air demineralisasi bertingkat, serta detergen cair hipoalergenik yang menjaga serat katun, wol, dan sutra tetap berkilau seperti baru.
+        </p>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+          Setiap kilogram pakaian dipilah dengan standar perlakuan tekstil ketat oleh tenaga bersertifikat, bebas risiko kelunturan dan pencampuran pakaian antar pelanggan.
+        </p>
+<!-- Stats Chips -->
+<div class="grid grid-cols-2 gap-4 pt-4">
+<div class="bg-surface-card p-5 rounded-2xl shadow-sm flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-brand-amber-light text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">sentiment_satisfied</span>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-text-primary font-bold">800+</p>
+<p class="font-label-sm text-label-sm text-text-secondary">Happy Customers / bln</p>
+</div>
+</div>
+<div class="bg-surface-card p-5 rounded-2xl shadow-sm flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-brand-sky-light text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">bolt</span>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-text-primary font-bold">99.8%</p>
+<p class="font-label-sm text-label-sm text-text-secondary">On-Time Delivery</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Photography Mosaic (matching reference layout) -->
+<div class="lg:col-span-7 grid grid-cols-2 gap-4 sm:gap-6">
+<div class="space-y-4 sm:space-y-6">
+<div class="rounded-2xl overflow-hidden shadow-md bg-surface-card h-64 sm:h-72">
+<img class="w-full h-full object-cover" data-alt="Minimalist stack of pastel folded towels with delicate fresh yellow chamomile flowers placed gently on top, bathed in soft afternoon window light, warm cream aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPkb3jK1ED0JHPwaEhZcBYdaGuAEtBUM2biTDrjaVw2jI_GvkCcY6S_J9MyFuVT3DvwCUZaRt4vA-fKRQp6UxdI2rcMQbKJadHwmjhGBdvc6InvOtCEPyz-vW80GRe4doSByL0Yihwj9m0ET-_jxWo5BnzqXRu7a-K9-osC4zpFAmQVjhd9RzWc3QcIss1C2sCzqWuwa_IwHDiiqZyzBiTi-VuQ24kfNvJenfD0-AWAtOUCRFbcsI"/>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-md bg-surface-card h-44 sm:h-52">
+<img class="w-full h-full object-cover" data-alt="Hands neatly rolling a crisp white linen duvet inside a spotless modern laundry facility with stainless steel folding tables" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDy_V6KoTQYEgZ72YOBFp_I2ig6-f-tCLg4_g8Rb4z-9tt9GqfbJSLr6L56tRj5nn004CCcZ50MBtU73YtHUbvBW21kQLk8sQc77_7XHVPzcbZQ8pedOgzYtjZ6J6k34Uw-M-xUZUf12Rbj5P4CBNLRBjvKr0HE-zIGCLkGZr7TkNDOgUVsuku_H1Uq1-ize8qsdYbLTyrvFHHy1fAXajQ11bxpjsf6Gv7qXhG07n0_XGH6HAhyzyM"/>
+</div>
+</div>
+<div class="space-y-4 sm:space-y-6 pt-6 sm:pt-10">
+<div class="rounded-2xl overflow-hidden shadow-md bg-surface-card h-44 sm:h-52">
+<img class="w-full h-full object-cover" data-alt="Close up of a laundry specialist hand steaming an elegant blazer with a high precision handheld steam iron, fine mist visible, clean bright light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMZS0ATHswHzmFdW2lM05jQnNskCm7QMfdrxrniM75JLsTZi1D0RGWnsbbdbHtCT-wcw0kjh0xRkP56iluchvXK6r6CyMhqSfc3REjQxdpDKOAxhawAfkZHOjHCS0JAzAZz8I2mTDwV8PQKOgrCSQ9xIvRG9jSGkyMrMXpADK__bE6yKRRU1hh5uG2yetdXg_8UZxEcne762DAo7Y4JnX0ZyKiLeYO_CtJKDtJi54TYtAkQWGTmOo"/>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-md bg-surface-card h-64 sm:h-72">
+<img class="w-full h-full object-cover" data-alt="Smiling friendly Indonesian female laundry staff in clean modern apron holding a bundle of freshly laundered and sealed clothes in front of a laundry pickup desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhbFVP-7A3PgTyxFEp4a-K1qsejBwSDS4qcitMnYejzXC1NQdo0IFaPFNu6CbPll1-03d0BRGbWnt5_z7D6Kcgwd7ZVSrrlxH_jku2KeuXFVhqAU72b5bGfrTQduKyGorPPBPBzLaLE6GQSQiFc_j9n80R_03hJZEqzsCYK_Tq4qpnti_6nsEvqJpWXwg1fJ-_bBx9MdZbSFbrOdHFm1l_LpwQr3dHp4oYZjzT5uATpx3CS1mppVY"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EXPERT LAUNDRY SERVICES SECTION (3 Bold Colored Cards) -->
+<section class="w-full bg-surface-cream-alt py-20 lg:py-28">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Pilihan Servis Unggulan</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight mt-1">
+            Expert laundry services delivered fresh
+          </h2>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-on-primary font-label-md text-label-md rounded-full shadow-sm hover:bg-primary-container transition-all shrink-0" href="#packages-section">
+<span>Lihat Semua Layanan</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- 3 Primary Colored Service Tiles matching https://lh3.googleusercontent.com/aida-public/AB6AXuBmV1ZNtQLyo3pAcVIi-wwzkISKwHOczj1Oz42hB1a_SYF4XAsoggv-8mWQFJe4wVA5TXOwLw92csN7J3LsxZL7hEYYAmxZgE8pSbFNusksWeF9qa7G83WfhRVaJM4n1i8dgRi3EpLhVBmv2xlSHxQ2ajFuP_xhbo0n4EEzwetbEhq49AQ7fajXBA_dEYMX-9o-k57Ew_YrhqkUjYSYwGR40GuarZndsIiZqb_IrUiXGMUNkRmhErI5pqHPqPzgDgDM -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- 1. Quick Wash (Orange Card) -->
+<div class="bg-primary rounded-3xl p-8 text-on-primary shadow-xl flex flex-col justify-between group hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-label-sm uppercase tracking-wider bg-on-primary/20 px-3 py-1 rounded-full">Express Ready</span>
+<span class="font-headline-sm text-headline-sm font-bold">Mulai Rp8.000/kg</span>
+</div>
+<!-- Big Icon Center -->
+<div class="w-24 h-24 mx-auto mb-8 rounded-2xl bg-on-primary/15 flex items-center justify-center text-on-primary">
+<svg fill="none" height="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="56">
+<path d="M3 6h18"></path>
+<path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+<path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+<circle cx="12" cy="14" r="4"></circle>
+<path d="M12 12a2 2 0 1 0 2 2"></path>
+</svg>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold mb-3">Quick Wash</h3>
+<p class="font-body-md text-body-md text-on-primary/90 leading-relaxed">
+              Pencucian pakaian reguler cepat, bersih tuntas, dan wangi tahan lama. Selesai dalam 4–6 jam siap kembali dipakai harian.
+            </p>
+</div>
+<div class="pt-8 mt-6 border-t border-on-primary/20 flex items-center justify-between">
+<span class="font-label-sm text-label-sm">Anti Kuman • Ekstra Pelembut</span>
+<button class="w-10 h-10 rounded-full bg-on-primary text-primary flex items-center justify-center hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+<!-- 2. Fresh Press (Golden Yellow Card) -->
+<div class="bg-tertiary-container rounded-3xl p-8 text-on-tertiary-container shadow-xl flex flex-col justify-between group hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-label-sm uppercase tracking-wider bg-on-tertiary-container/20 px-3 py-1 rounded-full">Anti Kusut</span>
+<span class="font-headline-sm text-headline-sm font-bold">Mulai Rp6.000/kg</span>
+</div>
+<!-- Big Iron Icon Center -->
+<div class="w-24 h-24 mx-auto mb-8 rounded-2xl bg-on-tertiary-container/15 flex items-center justify-center text-on-tertiary-container">
+<svg fill="none" height="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="56">
+<path d="M4 18h16l1-5c.3-1.5-.7-3-2.3-3H6.7C5.2 10 4 11.2 4 12.7V18z"></path>
+<path d="M4 14h16"></path>
+<path d="M7 10V6c0-1.1.9-2 2-2h6c1.1 0 2 .9 2 2v4"></path>
+</svg>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold mb-3">Fresh Press</h3>
+<p class="font-body-md text-body-md text-on-tertiary-container/90 leading-relaxed">
+              Layanan setrika uap presisi temperatur terkontrol. Menghilangkan kusut sempurna pada kemeja kerja, gaun, dan celana formal.
+            </p>
+</div>
+<div class="pt-8 mt-6 border-t border-on-tertiary-container/20 flex items-center justify-between">
+<span class="font-label-sm text-label-sm">Hanger Steril • Siap Lemari</span>
+<button class="w-10 h-10 rounded-full bg-on-tertiary-container text-tertiary-container flex items-center justify-center hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+<!-- 3. Stain Removal (Sky/Royal Blue Card) -->
+<div class="bg-secondary rounded-3xl p-8 text-on-secondary shadow-xl flex flex-col justify-between group hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-label-sm uppercase tracking-wider bg-on-secondary/20 px-3 py-1 rounded-full">Care Specialist</span>
+<span class="font-headline-sm text-headline-sm font-bold">Mulai Rp15.000/pc</span>
+</div>
+<!-- Big Shirt with Stain Sparkle Icon -->
+<div class="w-24 h-24 mx-auto mb-8 rounded-2xl bg-on-secondary/15 flex items-center justify-center text-on-secondary">
+<svg fill="none" height="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="56">
+<path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path>
+<circle cx="12" cy="14" fill="currentColor" r="1.5"></circle>
+<path d="M15 13l1-1"></path>
+<path d="M9 15l-1 1"></path>
+</svg>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold mb-3">Stain Removal</h3>
+<p class="font-body-md text-body-md text-on-secondary/90 leading-relaxed">
+              Treatment intensif mengangkat noda kopi, minyak, saus, dan jamur tanpa melunturkan warna atau menipiskan rajutan serat pakaian.
+            </p>
+</div>
+<div class="pt-8 mt-6 border-t border-on-secondary/20 flex items-center justify-between">
+<span class="font-label-sm text-label-sm">Enzim Aktif • Ramah Tekstil</span>
+<button class="w-10 h-10 rounded-full bg-on-secondary text-secondary flex items-center justify-center hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TIMELINE / JOURNEY SECTION ("From humble beginnings to excellence") -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Header & Info -->
+<div class="lg:col-span-4 space-y-6 lg:sticky lg:top-28">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Perjalanan Kami</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight leading-tight">
+          From humble beginnings to excellence
+        </h2>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+          Berawal dari outlet rumahan sederhana di Jakarta Selatan tahun 2010, NeatWash kini berkembang menjadi jaringan laundry modern terpadu yang memadukan kehangatan pelayanan hotelier dan akurasi perangkat komersial Eropa.
+        </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 px-6 py-3 bg-surface-cream-muted text-text-primary font-label-md text-label-md rounded-full hover:bg-border-subtle transition-all" href="#">
+<span>Pelajari Kisah Kami</span>
+<span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+<!-- Right Milestones Timeline Cards -->
+<div class="lg:col-span-8 space-y-8">
+<!-- Milestone 1: 2010 -->
+<div class="bg-surface-card rounded-3xl p-6 sm:p-8 shadow-sm flex flex-col md:flex-row gap-6 items-center">
+<div class="w-full md:w-5/12 h-48 rounded-2xl overflow-hidden bg-surface-cream-muted shrink-0">
+<img class="w-full h-full object-cover" data-alt="Vintage-toned archival documentary photo of a small tidy boutique laundry storefront in 2010 with colorful shirts on hangers and a wooden counter" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-ylMhtIo9rxDW9pDi3YLmzKObRSB7R6625XtJ2sYc7SVRNJvf2ZOLwakGl8jznsdpCE0KUjdLhWW4IHFgL4RXh_esrD3NT4T2bLnPzLv0UuBLVP43v1f6ZPSEoeAMcbbHAAJTmNYLy0pm0mCELUiYMwp6uzckr-jJ22TUGBwRr4R-XAvo5b3N8_rd01Fn9gWl4-QyN6ZVj54BpQBvxXcl5mS1AdZSdmaw7gLHkj3S8G52tqYdTDU"/>
+</div>
+<div class="space-y-2 flex-1">
+<div class="inline-block px-3 py-1 bg-surface-cream-muted text-primary font-label-sm text-label-sm font-bold rounded-full">
+              2010 • Awal Perjalanan
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold">Foundation and Local Launch</h3>
+<p class="font-body-sm text-body-sm text-text-secondary">
+              Didirikan dengan 3 mesin cuci komersial berkapasitas 8kg di Senopati, berfokus pada ketepatan waktu cuci kering setrika bagi keluarga muda.
+            </p>
+</div>
+</div>
+<!-- Milestone 2: 2018 -->
+<div class="bg-surface-card rounded-3xl p-6 sm:p-8 shadow-sm flex flex-col md:flex-row gap-6 items-center">
+<div class="w-full md:w-5/12 h-48 rounded-2xl overflow-hidden bg-surface-cream-muted shrink-0">
+<img class="w-full h-full object-cover" data-alt="Proud professional female laundry manager with arms crossed standing inside an expanded bustling garment processing facility filled with clean linen rails" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9ql8DlyNGcM3hZrMH9cIzbCl_s0M5Vq5oY7sfKWzZc5wqD3_LlQodEeuJpI1iBrGxcG2slTwYMZRvvKQefrQ1t0QqOvoKq8zFuoU1t_X2UJdH6kKLhFamD_ROmIp-4ZhwECB0P2rKqwmSFIPrqjTZnZwEkqvWbzCBkvIamgK-mvRBkzHBxcjOF-pba3RNkT6Pj9yzpmPKhrReGaqiHsjCSH303mjrFfwi1koJeYtMF4UPhcS6e-4"/>
+</div>
+<div class="space-y-2 flex-1">
+<div class="inline-block px-3 py-1 bg-brand-sky-light text-secondary font-label-sm text-label-sm font-bold rounded-full">
+              2018 • Skala Operasional
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold">Expansion & Operational Scaling</h3>
+<p class="font-body-sm text-body-sm text-text-secondary">
+              Membuka central processing plant seluas 600m² dan memperkenalkan armada kurir listrik bebas emisi pertama di Jabodetabek.
+            </p>
+</div>
+</div>
+<!-- Milestone 3: Present -->
+<div class="bg-surface-card rounded-3xl p-6 sm:p-8 shadow-sm flex flex-col md:flex-row gap-6 items-center">
+<div class="w-full md:w-5/12 h-48 rounded-2xl overflow-hidden bg-surface-cream-muted shrink-0">
+<img class="w-full h-full object-cover" data-alt="Ultra modern high-tech spotless white commercial laundry central plant with automated overhead conveyor lines and digital tracking panels" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTSnCjbwM1aKnLyvJzOseB9dzxgxagYi_HrqpThYoV0hoAFpvqzqyAFZvHyOce8TqLxTPX5UDuyEdxaXgTZ_8qm4eiaSQZ3jvUo5uRNFNfIPxxhGJWl0-RPHl1bgZGf5F_sEOwybgEbJC8VE6Ffc-dxMiQNv8iHvzJ9Rk_svojlqJ9HSqSes2dFynw3KYqkhHRkl12nGtLSqqtFBSd4aMp3UN-ZfDc1P-k-wSaBB4M4AhXXJDf0UM"/>
+</div>
+<div class="space-y-2 flex-1">
+<div class="inline-block px-3 py-1 bg-brand-amber-light text-tertiary font-label-sm text-label-sm font-bold rounded-full">
+              Present • Inovasi Berkelanjutan
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold">Maturity & Service Innovation</h3>
+<p class="font-body-sm text-body-sm text-text-secondary">
+              Peluncuran sistem tracking 8-tahapan end-to-end, drop box pintar 24 jam, dan sertifikasi ramah serat kain OEKO-TEX standard.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- HOW IT WORKS SECTION ("Our easy process for fresh laundry every time") -->
+<section class="w-full bg-surface-cream-alt py-20 lg:py-24" id="how-it-works">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Langkah Praktis</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight mt-1 mb-4">
+        Our easy process for fresh laundry every time
+      </h2>
+<p class="font-body-md text-body-md text-text-secondary max-w-2xl mx-auto mb-14">
+        Hanya butuh 60 detik untuk menjadwalkan penjemputan. Tim kami menangani sisanya dengan penuh kecermatan.
+      </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+<!-- Step 1 -->
+<div class="bg-surface-card p-7 rounded-3xl shadow-sm relative overflow-hidden group hover:-translate-y-1 transition-transform">
+<div class="text-6xl font-display-hero text-surface-cream-muted font-bold absolute -top-1 -right-1 pointer-events-none group-hover:text-primary-fixed transition-colors">
+            01
+          </div>
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl">smartphone</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold mb-2">Order & Pick Up</h3>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+            Pesan lewat web atau WhatsApp, tentukan jam pickup. Kurir NeatWash menjemput langsung ke depan pintu Anda.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-card p-7 rounded-3xl shadow-sm relative overflow-hidden group hover:-translate-y-1 transition-transform">
+<div class="text-6xl font-display-hero text-surface-cream-muted font-bold absolute -top-1 -right-1 pointer-events-none group-hover:text-brand-amber-light transition-colors">
+            02
+          </div>
+<div class="w-12 h-12 rounded-2xl bg-brand-amber-light text-tertiary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl">tune</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold mb-2">Sorting & Tagging</h3>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+            Pakaian dipilah berdasar warna, jenis kain, dan instruksi penanganan. Diberi barcode anti tertukar.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-card p-7 rounded-3xl shadow-sm relative overflow-hidden group hover:-translate-y-1 transition-transform">
+<div class="text-6xl font-display-hero text-surface-cream-muted font-bold absolute -top-1 -right-1 pointer-events-none group-hover:text-brand-sky-light transition-colors">
+            03
+          </div>
+<div class="w-12 h-12 rounded-2xl bg-brand-sky-light text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl">iron</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold mb-2">Deep Wash & Press</h3>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+            Dicuci menggunakan detergen alami ramah alergi, dikeringkan steril suhu terukur, dan disetrika uap halus.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-card p-7 rounded-3xl shadow-sm relative overflow-hidden group hover:-translate-y-1 transition-transform">
+<div class="text-6xl font-display-hero text-surface-cream-muted font-bold absolute -top-1 -right-1 pointer-events-none group-hover:text-surface-cream-muted transition-colors">
+            04
+          </div>
+<div class="w-12 h-12 rounded-2xl bg-surface-cream-muted text-text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl">check_box</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-bold mb-2">QC & Delivery</h3>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+            Pemeriksaan kualitas akhir, dikemas higienis berlabel kedap udara, diantar kembali tepat waktu ke tangan Anda.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- LAUNDRY EXPERTS / TEAM SECTION (Ref image component) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-24 w-full">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Tim Spesialis</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight mt-1">
+        Laundry experts passionate about clean
+      </h2>
+<p class="font-body-md text-body-md text-text-secondary mt-3">
+        Setiap helai pakaian Anda ditangani langsung oleh staf terlatih yang memahami sains di balik perawatan serat kain.
+      </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<!-- Member 1 -->
+<div class="bg-surface-card p-4 rounded-2xl shadow-sm text-center">
+<div class="h-44 sm:h-52 rounded-xl overflow-hidden mb-4 bg-surface-cream-muted">
+<img class="w-full h-full object-cover" data-alt="Portrait of an approachable Indonesian male master fabric technician wearing a navy uniform shirt smiling warmly in a bright laundry workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUjZSXkqt9p4SE_VNmlwgYAHOFicH5lVMJwPthIDXJv5zDzFstbWervjoZALCGWEQlP8ewrhJgslHKIE15vAUTxUB-UQ-RBXIv0lnXJIbNuNecY6Wt_7jwvzkeHhevKCyqju94KzeuP8ct4R963bBrcXo6f3sm6euNNmQiJTiS5GKQCilddPnNS1xdcO9-bVaonjZNwXAishU8Sd8M6AIhxzu_GDhZcWlKi4Xx9b-tpw0dNfzzjj4"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold">Rian Kusuma</h4>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Master Textile Specialist</p>
+</div>
+<!-- Member 2 -->
+<div class="bg-surface-card p-4 rounded-2xl shadow-sm text-center">
+<div class="h-44 sm:h-52 rounded-xl overflow-hidden mb-4 bg-surface-cream-muted">
+<img class="w-full h-full object-cover" data-alt="Portrait of an experienced Indonesian female stain removal specialist in a pristine white lab coat smiling with expertise" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSWxQOuW_9d2QRV2CFHktcbMFx4L7xmcwkDn3bq8dl0TLyOEZTEBgQRivxDpq71NN5fDx1TY5BzGuNtleSJEUYK8-2o7-hnfaGaDOwdjbpnzvyM0sEIjRNp-8KzMa1qWyPNg7MoSp4iQfuxkl4yOKMrdZlV5c5oP_vmbjodjLydeBrjwKVTdvTrFSstL8GJ4d_052jVkAhxndhMTS0DnSkABg-Di9UTbnBO4VJ5ZAsx3M4EROp87M"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold">Anindya Putri</h4>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Stain & Chemical Care</p>
+</div>
+<!-- Member 3 -->
+<div class="bg-surface-card p-4 rounded-2xl shadow-sm text-center">
+<div class="h-44 sm:h-52 rounded-xl overflow-hidden mb-4 bg-surface-cream-muted">
+<img class="w-full h-full object-cover" data-alt="Portrait of a friendly young Indonesian female steam pressing expert in tidy apron in front of stainless pressing machinery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqWf1PuWgAay3PJ9DsKZyRNWY54jggfQgbtmAqU_r5msQeTHnwPuyJVSZiMA_Wh8Ay_12MbT5-uxWRfxHi7XZ3iMxjH9NzRmnfNsozCtxx46oiMf562TvykXwjm9HOFFjVZ6qVCBcyu92fb4_2Llj6nnHKiQ5hpMf8mwpHOAs5aD1N451-IJV-QU8glmCT8oEFIdgpXLjy1vUT_Uw_weOO4vn6DTG0tJhm99OqPw2-aw-jmIB7BxU"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold">Dewi Rahayu</h4>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Steam Press Lead</p>
+</div>
+<!-- Member 4 -->
+<div class="bg-surface-card p-4 rounded-2xl shadow-sm text-center">
+<div class="h-44 sm:h-52 rounded-xl overflow-hidden mb-4 bg-surface-cream-muted">
+<img class="w-full h-full object-cover" data-alt="Portrait of a prompt Indonesian delivery supervisor in neat polo shirt holding a clipboard with delivery dispatch routes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUg3muJb4WVIFhUVcLTu6LddYeC8UgKcS_DstuNJeUxnHtdPCH7uJHjzdajEgAtFz_Yvmtqa04vQ6dIA48HXyJChmQAQOvC11H1Y_B_Ho87AsjXqmyMC0jsfiMNeooZb2hBc4pBK42ejo36Oh9Hk-1edRPST0OOfEaGkv0K35h5xU29G5r4DTXrCd34VG542a5FDXLMXC9F5VVL3JFLp-3t3OLQBPYjfkGiVVIZv3d9DWOr4hX4eM"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold">Bagas Pratama</h4>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Fleet & Dispatch Head</p>
+</div>
+</div>
+</section>
+<!-- TESTIMONIALS SECTION -->
+<section class="w-full bg-surface-cream-alt py-20 lg:py-28">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-4 space-y-4">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Testimoni Asli</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight">
+            Fresh laundry, happy customers speak volumes
+          </h2>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            Lebih dari ribuan keluarga dan pekerja profesional di Jakarta mempercayakan pakaian kerja dan bed cover mereka kepada NeatWash setiap minggunya.
+          </p>
+<div class="pt-2 flex items-center gap-2">
+<span class="font-headline-md text-headline-md text-primary font-bold">4.9/5</span>
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-text-muted">(Google Reviews)</span>
+</div>
+</div>
+<div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Review Card 1 -->
+<div class="bg-surface-card p-6 sm:p-7 rounded-3xl shadow-sm space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-11 h-11 rounded-full overflow-hidden bg-surface-cream-muted">
+<img class="w-full h-full object-cover" data-alt="Headshot of a happy young mother sitting at a tidy home dining table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAcFIaC--5XmBiOgMGHGzptbLgidXXvWsdciQJ42gXFKDcW94w8VhciHD0xuRNJsqJI2snrXyoeVYlnFq7sN4ivYpxGxnh9hxUGYRDPz2sf32EHhhsCEEMiMWWmnqgSGeiGsbe52p0c79ggXcSQle1AyM3I-ceT4BPrXeAZKljXALm7am0nbXfHJRzSRt-GBkQijRTCIM1Kbw1-aZHAJ2YSjIw-gevtlh3Bgu3vUMTOTlfFv5ktqc"/>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold text-base">Clarissa Santoso</h4>
+<p class="font-label-sm text-label-sm text-text-muted">Ibu Rumah Tangga, BSD</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              "Bed cover king size dan baju anak-anak saya hasilnya luar biasa bersih dan wangi lembut tidak menyengat. Anak saya yang punya kulit sensitif sama sekali tidak gatal!"
+            </p>
+<div class="flex text-amber-500 text-sm">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="bg-surface-card p-6 sm:p-7 rounded-3xl shadow-sm space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-11 h-11 rounded-full overflow-hidden bg-surface-cream-muted">
+<img class="w-full h-full object-cover" data-alt="Headshot of an urban professional man wearing glasses and a crisp linen shirt smiling confidently" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDabAPpvxPclKOUC-6lmQfzhXtexWrWcdCsgST9xlYXU-5agUO9l-0Kswp_uewZFkqQ2rXCpvYjg2cf7eXXdL70w9-o7m_ycPeJrOMSIWfjv59iy8u8KnVQmBlGlHXWYCtAat6hGGEELZusiXdLuqzw0nBktCXAqlfKfclq2mNLWtd9wAin2ZaMibwDvyhasK7d9pj9-0ht9pO5UNQBlTXjYk7FqfrPrOpW-ZBGo0WBwcdarvOV_Ro"/>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary font-bold text-base">Dimas Arisandi</h4>
+<p class="font-label-sm text-label-sm text-text-muted">Tech Lead di SCBD</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              "Fitur live tracking status laundry-nya game changer banget! Saya bisa tahu persis kapan baju kerja saya lagi disetrika uap dan jam berapa kurir bakal sampai di lobby apartemen."
+            </p>
+<div class="flex text-amber-500 text-sm">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TAILORED LAUNDRY PACKAGES SECTION (PRICING TIERS) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28 w-full" id="packages-section">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Paket Hemat Pilihan</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary tracking-tight mt-1">
+        Tailored Laundry Packages Designed Specifically for Your Needs
+      </h2>
+<p class="font-body-md text-body-md text-text-secondary mt-3">
+        Harga transparan tanpa biaya tersembunyi. Termasuk jemput-antar gratis dengan radius hingga 5 km.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Tier 1: Reguler -->
+<div class="bg-surface-card rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="inline-block px-3 py-1 bg-surface-cream-muted text-text-primary font-label-sm text-label-sm font-semibold rounded-full mb-4">
+            Santai & Hemat
+          </div>
+<h3 class="font-headline-md text-headline-md text-text-primary font-bold">Paket Reguler</h3>
+<p class="font-body-sm text-body-sm text-text-secondary mt-1 mb-6">Cocok untuk kebutuhan pakaian harian tanpa terburu-buru.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="font-display-hero text-headline-lg text-text-primary font-bold">Rp 45.000</span>
+<span class="font-body-sm text-body-sm text-text-muted">/ 5 Kg</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-text-secondary mb-8">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Pengerjaan 24–36 Jam</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Cuci + Kering + Lipat Rapi</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Detergen Hipoalergenik</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Free Pickup • Antar Radius 5km</span>
+</li>
+</ul>
+</div>
+<button class="w-full py-3.5 bg-surface-cream-muted text-text-primary font-label-lg text-label-lg rounded-full hover:bg-border-subtle transition-all">
+          Pilih Paket Reguler
+        </button>
+</div>
+<!-- Tier 2: Express (Most Popular - Primary Accent) -->
+<div class="bg-primary text-on-primary rounded-3xl p-8 shadow-xl flex flex-col justify-between transform md:-translate-y-3 relative">
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-on-primary text-primary px-4 py-1 rounded-full font-label-sm text-label-sm font-bold shadow-md uppercase tracking-wider">
+          Paling Populer
+        </div>
+<div>
+<div class="inline-block px-3 py-1 bg-on-primary/20 text-on-primary font-label-sm text-label-sm font-semibold rounded-full mb-4">
+            Prioritas Cepat
+          </div>
+<h3 class="font-headline-md text-headline-md font-bold">Paket Express</h3>
+<p class="font-body-sm text-body-sm text-on-primary/90 mt-1 mb-6">Pakaian bersih rapi siap pakai dalam hitungan jam.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="font-display-hero text-headline-lg font-bold">Rp 75.000</span>
+<span class="font-body-sm text-body-sm text-on-primary/80">/ 5 Kg</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-on-primary/95 mb-8">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base">bolt</span>
+<span>Selesai Cepat (6 Jam Siap Kirim)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base">check</span>
+<span>Cuci + Kering + Setrika Uap</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base">check</span>
+<span>Pemisahan Warna Khusus</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base">check</span>
+<span>Kemasan Zip Bag Kedap Udara</span>
+</li>
+</ul>
+</div>
+<button class="w-full py-3.5 bg-on-primary text-primary font-label-lg text-label-lg rounded-full hover:bg-primary-fixed transition-all font-bold">
+          Pilih Paket Express
+        </button>
+</div>
+<!-- Tier 3: Bulanan Keluarga -->
+<div class="bg-surface-card rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="inline-block px-3 py-1 bg-surface-cream-muted text-text-primary font-label-sm text-label-sm font-semibold rounded-full mb-4">
+            Langganan Rumah Tangga
+          </div>
+<h3 class="font-headline-md text-headline-md text-text-primary font-bold">Paket Keluarga 30kg</h3>
+<p class="font-body-sm text-body-sm text-text-secondary mt-1 mb-6">Bebas repot mencuci sebulan penuh untuk 3–4 anggota keluarga.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="font-display-hero text-headline-lg text-text-primary font-bold">Rp 250.000</span>
+<span class="font-body-sm text-body-sm text-text-muted">/ Bulan</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-text-secondary mb-8">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Kuota 30 Kg (Bisa 6x Pickup)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Cuci + Setrika Uap + Hanger</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Gratis Cuci 1 Bed Cover Besar</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check</span>
+<span>Jadwal Penjemputan Rutin Otomatis</span>
+</li>
+</ul>
+</div>
+<button class="w-full py-3.5 bg-surface-cream-muted text-text-primary font-label-lg text-label-lg rounded-full hover:bg-border-subtle transition-all">
+          Pilih Paket Keluarga
+        </button>
+</div>
+</div>
+</section>
+<!-- CALL TO ACTION BANNER (Matching reference banner) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 pb-24 w-full">
+<div class="relative bg-primary rounded-3xl p-8 sm:p-12 lg:p-14 text-on-primary overflow-hidden shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-8">
+<!-- Background pattern decor -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-primary-container/60 blur-2xl pointer-events-none"></div>
+<div class="space-y-4 max-w-xl relative z-10 text-center lg:text-left">
+<span class="inline-block px-3 py-1 bg-on-primary/20 text-on-primary font-label-sm text-label-sm font-semibold rounded-full">
+          Promo Pelanggan Baru • Diskon 20%
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-primary font-bold tracking-tight leading-tight">
+          Make laundry day hassle-free with NeatWash
+        </h2>
+<p class="font-body-md text-body-md text-on-primary/90">
+          Nikmati kenyamanan pakaian bersih seperti standar hotel bintang lima tanpa perlu mencuci sendiri. Pesan sekarang dan dapatkan potongan harga spesial pesanan pertama!
+        </p>
+<div class="pt-2 flex flex-wrap gap-4 justify-center lg:justify-start">
+<a class="px-8 py-3.5 bg-on-primary text-primary font-label-lg text-label-lg rounded-full shadow-lg hover:bg-primary-fixed transition-all font-bold" href="#">
+            Buat Pesanan Sekarang
+          </a>
+<a class="px-6 py-3.5 bg-transparent border-2 border-on-primary/50 text-on-primary font-label-lg text-label-lg rounded-full hover:bg-on-primary/10 transition-all" href="#">
+            Konsultasi WhatsApp
+          </a>
+</div>
+</div>
+<!-- Right image cutout -->
+<div class="relative z-10 w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden shadow-xl bg-surface-card shrink-0">
+<img class="w-full h-full object-cover" data-alt="Smiling friendly laundry specialist in clean modern NeatWash apparel carrying a neatly stacked pile of pastel fresh laundry, clean studio warm background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAK1JbaeCgYH-P0356PIFWmOEJavQ-VnAncIHtQq6OlAuEg4-G6pPnEkOxF68SeQjshfyfBxq7vuhnmcf6jGI-R8HkexvIOWXIPDBhuLvyE5Ug1rCMKgs3Whpe5whoPgLCOk2T4tG53oJzsq3gWfK2fqemfylkG4K6huGKDMDdck-77jf9-qyrK2R-WWjFPXYiSIx3T19l5ZlLeyWjoe6V64kiXnYWF7SxB5qlUeLASmMEWyyLtQp8"/>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple client-side micro-interaction for tracking drawer toggle
+  document.getElementById('track-btn')?.addEventListener('click', function() {
+    const input = document.getElementById('order-input');
+    const drawer = document.getElementById('tracking-drawer');
+    if (drawer) {
+      drawer.classList.remove('hidden');
+      drawer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
+
+  document.getElementById('order-input')?.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      const drawer = document.getElementById('tracking-drawer');
+      if (drawer) {
+        drawer.classList.remove('hidden');
+        drawer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  });
+</script></main><footer class="w-full bg-surface-cream-alt text-on-surface"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12"><div class="lg:col-span-2 space-y-4"><div class="flex items-center gap-3"><img alt="NeatWash Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VFWG7cLEb0txA7aFoLJTNnmmf7scJBav73M0lrA0vWXC6sCB61TK7Wz7aC9-YnqEoLcaFPQd15KQtqQcFd87MjZh4R34t2DHVavOdaTm0Mdd6RSti0RF3evA75bvFofJKGpNBbKGh-Wk_pmWobIH0qSpLYzW75SJKzcHuuF_29uH287I_l3oBUg_QSj-NxjnPx2CBaFvW0O81qaC4FJUQ4yCRDdrfiDCWiB3wmlclq9Mmt1UdlVq2q0w"/><span class="font-headline-sm text-headline-sm text-text-primary tracking-tight font-bold">NeatWash</span></div><p class="font-body-md text-body-md text-text-secondary max-w-sm">Delivering excellence every step ahead. Perawatan pakaian profesional dengan standar kebersihan higienis, ramah serat kain, dan wangi tahan lama.</p><div class="flex items-center gap-2 pt-2"><span class="inline-flex items-center gap-1.5 px-3 py-1 bg-surface-card rounded-full shadow-[0_2px_6px_rgba(30,41,59,0.04)]"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-text-secondary font-medium">Garansi Bersih 100%</span></span><span class="inline-flex items-center gap-1.5 px-3 py-1 bg-surface-card rounded-full shadow-[0_2px_6px_rgba(30,41,59,0.04)]"><span class="w-2 h-2 rounded-full bg-tertiary"></span><span class="font-label-sm text-label-sm text-text-secondary font-medium">Antar Jemput Gratis</span></span></div></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-text-primary font-semibold">Layanan Kami</h4><ul class="space-y-2 font-body-sm text-body-sm text-text-secondary"><li><a class="hover:text-primary transition-colors" data-path="layanan-dan-paket" href="#">Quick Wash (4 Jam)</a></li><li><a class="hover:text-primary transition-colors" data-path="layanan-dan-paket" href="#">Fresh Press & Ironing</a></li><li><a class="hover:text-primary transition-colors" data-path="layanan-dan-paket" href="#">Stain Removal Intensive</a></li><li><a class="hover:text-primary transition-colors" data-path="layanan-dan-paket" href="#">Bed Cover & Karpet</a></li><li><a class="hover:text-primary transition-colors" data-path="layanan-dan-paket" href="#">Sepatu & Tas Premium</a></li></ul></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-text-primary font-semibold">Navigasi</h4><ul class="space-y-2 font-body-sm text-body-sm text-text-secondary"><li><a class="hover:text-primary transition-colors" data-path="home" href="#">Beranda Utama</a></li><li><a class="hover:text-primary transition-colors" data-path="lacak-pesanan" href="#">Lacak Status Laundry</a></li><li><a class="hover:text-primary transition-colors" data-path="order-online" href="#">Booking Penjemputan</a></li><li><a class="hover:text-primary transition-colors" data-path="tentang-kami" href="#">Tentang Kami & Outlet</a></li><li><a class="hover:text-primary transition-colors" data-path="testimoni" href="#">Ulasan Pelanggan</a></li></ul></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-text-primary font-semibold">Jam & Kontak</h4><div class="space-y-2 font-body-sm text-body-sm text-text-secondary"><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary text-sm mt-0.5">schedule</span><div><p class="font-semibold text-text-primary">Buka Setiap Hari</p><p>07.00 - 21.00 WIB (Pickup 24 Jam)</p></div></div><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary text-sm mt-0.5">location_on</span><p>Jl. Senopati No. 42, Kebayoran Baru, Jakarta Selatan</p></div><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary text-sm mt-0.5">chat</span><p>WhatsApp: +62 812-3456-7890</p></div></div></div></div><div class="pt-8 mt-8 border-t border-border-subtle flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-text-secondary"><p>© 2025 NeatWash Laundry Service. Seluruh hak cipta dilindungi.</p><div class="flex items-center gap-6 font-label-md text-label-md"><a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a><a class="hover:text-primary transition-colors" href="#">Syarat & Ketentuan</a><a class="hover:text-primary transition-colors" href="#">Garansi Layanan</a></div></div></div></footer></body></html>
