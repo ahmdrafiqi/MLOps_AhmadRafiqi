@@ -1,0 +1,65 @@
+{
+  "merchant": "TOKO \"REZKIE JAYA\"",
+  "tanggal": "",
+  "item": [
+    {
+      "nama": "Coco kran",
+      "harga": 180
+    },
+    {
+      "nama": "gula pas ijo",
+      "harga": 1050
+    },
+    {
+      "nama": "Ceria 22",
+      "harga": 560
+    },
+    {
+      "nama": "Ultra 1l",
+      "harga": 215
+    },
+    {
+      "nama": "Sadolan cuantras",
+      "harga": 325
+    },
+    {
+      "nama": "mika 4",
+      "harga": 270
+    },
+    {
+      "nama": "Palmia",
+      "harga": 0
+    },
+    {
+      "nama": "mg lowis 10000",
+      "harga": 110
+    },
+    {
+      "nama": "Sandolc mahcoba",
+      "harga": 210
+    },
+    {
+      "nama": "maletie",
+      "harga": 100
+    },
+    {
+      "nama": "tah poc",
+      "harga": 640
+    },
+    {
+      "nama": "PP. 15 x30",
+      "harga": 60
+    },
+    {
+      "nama": "lc Sadap pining",
+      "harga": 290
+    },
+    {
+      "nama": "Silar",
+      "harga": 315
+    }
+  ],
+  "subtotal": 4870,
+  "pajak": 0,
+  "total": 4870
+}
